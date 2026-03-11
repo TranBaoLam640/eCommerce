@@ -1,0 +1,18 @@
+{
+  "name": "scam-ecommerce-db",
+  "version": "1.0.0",
+  "description": "Scam E-Commerce – MongoDB Database (25 collections)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "seed": "node seed.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "mongoose": "^8.9.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
